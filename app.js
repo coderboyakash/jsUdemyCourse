@@ -141,4 +141,138 @@
 // console.log(sum);
 // console.log(typeof sum);
 
+// const num1 = 100;
+// const num2 = 200;
+// let val;
+
+//Simple math with numbers
+
+// val = num1 + num2;
+// val = num1 * num2;
+// val = num1 - num2;
+// val = num1 / num2;
+// val = num1 % num2;
+
+// Math Objects
+
+// val = Math.PI;
+// val = Math.E;
+// val = Math.round(2.4);
+// val = Math.ceil(2.4);
+// val = Math.floor(2.4);
+// val = Math.sqrt(225);
+// val = Math.abs(225.256354789);
+// val = Math.pow(2,4);
+// val = Math.min(2,4,2,-1);
+// val = Math.max(2,4,2,-1);
+// val = Math.random();
+// val = Math.floor(Math.random() * 20 + 1);
+
+// console.log(val);
+
+
+// const fname = 'Akash';
+// const lname = 'Chowdhury';
+// const age = 24;
+// const str = 'Hello, there my name is falan dekhan';
+// const tags = 'web design, web development';
+
+// let val;
+
+// Concatenation
+
+// val = fname + ' ' + lname;
+
+// Appending
+
+// val = 'Brad ';
+// val += 'Traversy';
+
+// val = 'Hello, my name is ' + fname + 'I am ' + age; 
+
+// Escaping
+
+// val = 'That\'s awesome, I can\'t wait';
+
+// Length
+
+// val = fname.length;
+
+// concat()
+
+// val = fname.concat(' ', lname);
+
+// Change case
+
+// val = fname.toUpperCase();
+// val = fname.toLowerCase();
+
+// val = fname[0];
+// val = fname[1];
+
+// indexOf()
+
+// val = fname.indexOf('h');
+// val = fname.lastIndexOf('h');
+
+// charAt()
+
+// val = fname.charAt('1');
+
+// get last char
+
+// val = fname.charAt(fname.length - 1);
+
+// substring()
+
+// val = fname.substring(1, 4);
+
+// slice()
+
+// val = fname.slice(-3, 4);
+
+// split()
+
+// val = str.split(' ');
+
+// val = tags.split(',');
+
+// replace()
+
+// val = str.replace('falan', 'Falan');
+
+// includes()
+
+// val = str.includes('falan');
+
+// console.log(val);
+
+// const name = 'John';
+// const age = 25;
+// const job = 'Web Developer';
+// const city = 'Dankuni';
+
+// without template strings (es5)
+
+// html = '<ul><li>Name : '+ name +'</li><li>Age : '+ age +'</li><li>Job : '+ job +'</li><li>City : '+ city +'</li></ul>';
+
+// html = '<ul>'+
+//         '<li>Name : '+ name +'</li>' +
+//         '<li>Age : '+ age +'</li>' +
+//         '<li>Job : '+ job +'</li>' +
+//         '<li>City : '+ city +'</li>' +
+//         '</ul>';
+
+// with template strings (es6)
+
+// html = `
+//   <ul>
+//     <li class="">Name : ${name}</li>
+//     <li>Age : ${age}</li>
+//     <li>Job : ${job}</li>
+//     <li>City : ${city}</li>
+//   </ul>
+// `;
+
+// document.body.innerHTML = html;
 
