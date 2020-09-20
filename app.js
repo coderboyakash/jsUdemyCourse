@@ -276,3 +276,61 @@
 
 // document.body.innerHTML = html;
 
+// create some arrays
+
+// const numbers1 = [43,56,33,23,44,36,5];
+// const numbers2 = new Array(22,34,54,667,8);
+// const fruits = ['Grapes', 'Banana', 'Apple'];
+// const mixed = [1,'Apple', true, null, undefined, {a:1,b:1}, new Date()];
+
+// let val;
+
+// get array length
+// val = numbers1.length;
+// check if is array
+// val = Array.isArray(numbers1);
+// get single value from Array
+// val = numbers1[4];
+// val = numbers1[2];
+// insert value into array
+// numbers1[2] = 100;
+//find index of value in array
+// val = numbers1.indexOf(36);
+
+// Mutating arrays
+// numbers1.push(230);
+// add on to front
+// numbers1.unshift(128);
+// take off from end
+// numbers1.pop();
+//take off from front
+// numbers1.shift();
+// splice values
+//numbers1.splice(2,4) // takes 2 from front and after that 2 4th data
+//  Reverse the numbers
+// numbers1.reverse();
+
+//Concatenate arrays
+// val = numbers1.concat(numbers2);
+// sorting arrays
+// val = fruits.sort();
+// val = numbers1.sort();
+
+//Use the compare function
+// val = numbers1.sort(function(a, b) {
+//   return a - b;
+// })
+
+//Use the reverse function
+// val = numbers1.sort(function(a, b) {
+//   return b - a;
+// })
+
+// find
+// function under50(num){
+//   return num < 50;
+// }
+// val = numbers1.find(under50);
+
+// console.log(numbers1);
+// console.log(val);
