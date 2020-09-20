@@ -334,3 +334,69 @@
 
 // console.log(numbers1);
 // console.log(val);
+//  Object Literals
+
+// const person = {
+//   fname : 'Steve',
+//   lname : 'Smith',
+//   age : 21,
+//   email : 'steve@gmail.com',
+//   hobbies : ['music', 'sports'],
+//   address : {
+//     city : 'San Francisco',
+//     state : 'CA'
+//   },
+//   getBirthYear : function() {
+//     return 2017 - this.age;
+//   }
+// }
+
+// val = person;
+//  get specific value
+// val = person.fname;
+// val = person['fname'];
+// val = person.age;
+// val = person.hobbies;
+// val = person.address;
+// val = person.address.state;
+// val = person.getBirthYear();
+
+// const peoples = [
+//   { name: 'John', age: 25},
+//   { name: 'Steve', age: 22},
+//   { name: 'Nancy', age: 18},
+// ];
+
+// for(let i=0; i< peoples.length; i++) {
+//   console.log(peoples[i].name);
+// }
+
+// console.log(val);
+
+// let val;
+
+// const today = new Date();
+// let birthday = new Date('9-18-1981 11:25:15');
+// birthday = new Date('9-18-1981 11:25:15');
+
+// val = (today).toString();
+// val = (birthday).toString();
+// val = today.getMonth();
+// val = today.getDate();
+// val = today.getDay();
+// val = today.getFullYear();
+// val = birthday.getHours();
+// val = birthday.getMinutes();
+// val = today.getSeconds();
+// val = today.getTime();
+// birthday.setDate(12);
+// birthday.setMonth(2);
+// birthday.setFullYear(1997);
+// birthday.setHours(5);
+// birthday.setMinutes(55);
+// birthday.setSeconds(12);
+
+// console.log(today);
+// console.log(birthday);
+// console.log(typeof val);
+
