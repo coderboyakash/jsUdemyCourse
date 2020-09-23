@@ -400,3 +400,41 @@
 // console.log(birthday);
 // console.log(typeof val);
 
+// if(true){
+  //then do something
+// }
+
+// const id = 200;
+
+// equal to
+
+// if(id === '200'){
+//   console.log('Correct');
+// }else{
+//   console.log('Incorrect');
+// }
+
+// if(typeof id !== 'undefined'){
+//   console.log(`The id value is  ${id}`);
+// }else{
+//   console.log('There is not id defined');
+// }
+
+function greet(msg = 'Good Morning') { //es6 type
+  console.log(msg)
+}
+
+greet();
+
+// Function Expression
+
+const square = function(x){
+  return x * x;
+}
+console.log(square(25));
+
+// Immideately invokable expressions - IIFEs
+
+(function(){
+  console.log('IFFE Running....')
+})();
