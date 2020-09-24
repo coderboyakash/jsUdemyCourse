@@ -13,7 +13,6 @@
 //   console.log('Script file is loaded !');
 // console.timeEnd('Hello');
 
-
 //VAR
 
 // var name = "Akash Chowdhury 1";
@@ -73,7 +72,7 @@
 //  const sym = Symbol();
 //  console.log(typeof sym);
 
- // Refernce Types
+// Refernce Types
 
 // const hobbies = ['movies', 'cricket'];
 // console.log(typeof hobbies);
@@ -87,7 +86,6 @@
 // const today = new Date();
 // console.log(typeof today);
 // console.log(today);
-
 
 // Type Conversion
 
@@ -170,7 +168,6 @@
 
 // console.log(val);
 
-
 // const fname = 'Akash';
 // const lname = 'Chowdhury';
 // const age = 24;
@@ -188,7 +185,7 @@
 // val = 'Brad ';
 // val += 'Traversy';
 
-// val = 'Hello, my name is ' + fname + 'I am ' + age; 
+// val = 'Hello, my name is ' + fname + 'I am ' + age;
 
 // Escaping
 
@@ -401,7 +398,7 @@
 // console.log(typeof val);
 
 // if(true){
-  //then do something
+//then do something
 // }
 
 // const id = 200;
@@ -499,3 +496,64 @@
 //   console.log(`${x} : ${user[x]}`)
 // }
 
+// Window method object properties
+
+// window.console.log('hello');
+
+// alert method
+
+// window.alert('hello ! ...');
+
+// window.prompt method
+// const input1 = prompt();
+// const input2 = prompt();
+// alert(input1 + ' ' + input2);
+
+// Confirm
+
+// if(confirm('Are you sure you want to delete')){
+//   console.log('yes');
+// }else{
+//   console.log('no');
+// }
+
+// outer height and width
+// let val;
+// val = window.outerHeight;
+// val = window.outerWidth;
+// console.log(val);
+// inner height and width
+// val = window.innerHeight;
+// val = window.innerWidth;
+// console.log(val);
+// scroll points
+// val = window.scrollY;
+// val = window.scrollX;
+
+// location object
+
+// val = window.location;
+// val = window.location.host;
+// val = window.location.port;
+// val = window.location.href;
+
+// redirect url
+// window.location.href = "https://google.com";
+
+// reload url
+// window.location.reload();
+
+// history object
+// window.history.go();
+
+// val = window.history.length;
+
+// Navigator object
+// val = window.navigator;
+// val = window.navigator.appName;
+// val = window.navigator.appVersion;
+// val = window.navigator.userAgent;
+// val = window.navigator.platform;
+// val = window.navigator.vendor;
+// val = window.navigator.language;
+// console.log(val);
