@@ -420,21 +420,38 @@
 //   console.log('There is not id defined');
 // }
 
-function greet(msg = 'Good Morning') { //es6 type
-  console.log(msg)
-}
+// function greet(msg = 'Good Morning') { //es6 type
+//   console.log(msg)
+// }
 
-greet();
+// greet();
 
 // Function Expression
 
-const square = function(x){
-  return x * x;
-}
-console.log(square(25));
+// const square = function(x){
+//   return x * x;
+// };
+// console.log(square(25));
 
 // Immideately invokable expressions - IIFEs
 
-(function(){
-  console.log('IFFE Running....')
-})();
+// (function(name){
+//   console.log('Hello, ' + name);
+// })('Akash');
+
+//  Property Methods
+
+// const todo = {
+//   add: function(){
+//     console.log('Add to todo ..')
+//   },
+//   edit: function(id) {
+//     console.log(`Edit todo ${id}`)
+//   }
+// }
+// todo.delete = function(id){
+//   console.log(`Delete todo .. ${id}`)
+// }
+// todo.add();
+// todo.edit(50);
+// todo.delete(50);
