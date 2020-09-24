@@ -455,3 +455,46 @@
 // todo.add();
 // todo.edit(50);
 // todo.delete(50);
+
+// for(let i = 1; i <= 10; i++){
+//   if(i === 2){
+//     console.log('This is my favourite No')
+//     continue;
+//   }
+//   if(i === 3){
+//     console.log('Stop the loop');
+//     break;
+//   }
+//   console.log(i);
+// }
+
+const cars = ['Apple', 'Samsung', 'Redmi', 'Nokia'];
+
+cars.forEach(function(car, index, array){
+  console.log(`${index} : ${car}`);
+  console.log(`${array}`);
+})
+
+// Mapping
+
+const users = [
+  {id:1, name:'John'},
+  {id:2, name:'Sharah'},
+  {id:3, name:'Carol'},
+  {id:4, name:'Steve'},
+];
+
+const ids = users.map(function(user){
+  return user.id;
+})
+console.log(ids);
+
+const user = {
+  fname: 'Steve',
+  lname: 'Deo',
+  age: 30,
+}
+
+for(let x in user){
+  console.log(`${x} : ${user[x]}`)
+}
