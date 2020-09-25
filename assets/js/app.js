@@ -69,3 +69,45 @@
 //   even.style.backgroundColor = "red";
 //   even.style.color = "yellow";
 // });
+// let val;
+
+// const list = document.querySelector("ul.collections");
+// const listItem = document.querySelector("li.collection-item:first-child");
+// val = listItem;
+// val = list;
+
+// get child nodes
+// val = list.childNodes;
+// val = list.childNodes[0];
+// val = list.childNodes[0].nodeName;
+// val = list.childNodes[3].nodeType;
+// get children li nodes
+// val = list.children;
+
+// 1 - Element
+// 2 - Attributes (desprecated)
+// 3 - Text node
+// 8 - Comment
+// 9 - Document itself
+// // 10 - Doctype
+// val = list.children[2];
+// val = list.children[2].children[0];
+// list.children[2].children[0].id = 'test-link';
+// val = list.firstChild;
+// val = list.firstElementChild;
+// val = list.lastChild;
+// val = list.lastElementChild;
+// count child elements
+// val = list.childElementCount;
+// get parent nodes
+// val = listItem.parentNode;
+// val = listItem.parentNode.parentNode;
+// get next siblings
+// val = listItem.nextSibling;
+// val = listItem.nextElementSibling;
+// get previous siblings
+// val = listItem.previousSibling;
+// val = listItem.previousElementSibling;
+
+
+// console.log(val);
