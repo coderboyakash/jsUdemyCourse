@@ -17,29 +17,31 @@
   </head>
   <body>
     <div class="container card">
-      <div class='title'>
+      <div class='card-title'>
         <h2 id="task-title" class="taskTitle">Task List</h2>
       <div>
-      <form>
-        <label for="newTask">New Task</label>
-        <input type="text" name="newTask" id="task" />
-        <input type="submit" value="Add Task" class="btn btn-info ml-3" />
-        <select>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-        </select>
-      </form>
-      <ul class="list-unstyled ml-4 collections">
-        <li class="collection-item">Task 1 <a href="#" class="text-decoration-none pl-5">x</a></li>
-        <li class="collection-item">Task 2 <a href="#" class="text-decoration-none pl-5">x</a></li>
-        <li class="collection-item">Task 3 <a href="#" class="text-decoration-none pl-5">x</a></li>
-        <li class="collection-item">Task 4 <a href="#" class="text-decoration-none pl-5">x</a></li>
-        <li class="collection-item">Task 5 <a href="#" class="text-decoration-none pl-5">x</a></li>
-      </ul>
-      <a href="#" class="btn btn-info ml-3 clear-tasks">Clear Tasks</a>
+      <div class="card-content">
+        <form>
+          <label for="newTask">New Task</label>
+          <input type="text" name="newTask" id="task" />
+          <input type="submit" value="Add Task" class="btn btn-info ml-3" />
+          <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </form>
+        <ul class="list-unstyled ml-4 collections">
+          <li class="collection-item">Task 1 <a href="#" class="deleteItem text-decoration-none pl-5">x</a></li>
+          <li class="collection-item">Task 2 <a href="#" class="deleteItem text-decoration-none pl-5">x</a></li>
+          <li class="collection-item">Task 3 <a href="#" class="deleteItem text-decoration-none pl-5">x</a></li>
+          <li class="collection-item">Task 4 <a href="#" class="deleteItem text-decoration-none pl-5">x</a></li>
+          <li class="collection-item">Task 5 <a href="#" class="deleteItem text-decoration-none pl-5">x</a></li>
+        </ul>
+        <a href="#" class="btn btn-info ml-3 clear-tasks">Clear Tasks</a>
+      </div>
     </div>
   </body>
 </html>

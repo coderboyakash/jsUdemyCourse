@@ -239,3 +239,27 @@ const header = document.querySelector('h2');
 //   console.log(e.target.value);
 //   e.preventDefault();
 // }
+// Events Bubbling
+// document.querySelector('.card-title').addEventListener('click', function(){
+//     console.log('card-title');
+// });
+// document.querySelector('.card-content').addEventListener('click', function(){
+//     console.log('card-content');
+// });
+// document.querySelector('.card').addEventListener('click', function(){
+//     console.log('card');
+// });
+// document.querySelector('ul').addEventListener('click', function(){
+//     console.log('ul');
+// });
+// Events Delegations
+// const delItem = document.querySelector('.deleteItem');
+// delItem.addEventListener('click', deleteItem);
+// document.body.addEventListener('click', deleteItem);
+
+// function deleteItem(e){
+//     if(e.target.parentElement.classList.contains('collection-item')){
+//         console.log(e.target);
+//         e.target.parentElement.remove();
+//     }
+// }
