@@ -165,3 +165,52 @@
 // val = link.hasAttribute('href');
 // val = link.removeAttribute('href');
 // console.log(val);
+// document.querySelector('.clear-tasks').addEventListener('click', function(e){
+//     console.log('All the task is clear');
+//     e.preventDefault();
+// });
+
+// document.querySelector('.clear-tasks').addEventListener('click', onClick);
+
+// function onClick(e){
+    // let val;
+    // val = e;
+    // Event Target Elements
+//     val = e.target;
+//     val = e.target.id;
+//     val = e.target.className;
+//     val = e.target.classList;
+
+//     console.log(val);
+// }
+
+// mouse events
+
+const clearBtn = document.querySelector('.clear-tasks');
+const card = document.querySelector('.card');
+const header = document.querySelector('h2');
+
+// event handler
+// click event
+// clearBtn.addEventListener('click', runEvent);
+// double click
+// clearBtn.addEventListener('dblclick', runEvent);
+// mouse down
+// clearBtn.addEventListener('mousedown', runEvent);
+// mouse up
+// clearBtn.addEventListener('mouseup', runEvent);
+// mouse enter
+// clearBtn.addEventListener('mouseenter', runEvent);
+// mouse leave
+// clearBtn.addEventListener('mouseleave', runEvent);
+// mouse over
+// clearBtn.addEventListener('mouseover', runEvent);
+// mouse out
+// clearBtn.addEventListener('mouseout', runEvent);
+// mouse move
+// card.addEventListener('mousemove', runEvent);
+// function runEvent(e) {
+//     console.log(`event type : ${e.type}`);
+//     header.textContent = `MouseX : ${e.offsetX}, MouseY : ${e.offsetY}`;
+//     card.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 100)`;
+// }
