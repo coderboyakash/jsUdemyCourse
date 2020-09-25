@@ -214,3 +214,28 @@ const header = document.querySelector('h2');
 //     header.textContent = `MouseX : ${e.offsetX}, MouseY : ${e.offsetY}`;
 //     card.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 100)`;
 // }
+// const form = document.querySelector("form");
+// const taskInput = document.getElementById("task");
+// const heading = document.querySelector('h2');
+// const select = document.querySelector('select');
+// clear input
+// taskInput.value = '';
+// form.addEventListener("submit", runEvent);
+// taskInput.addEventListener("keydown", runEvent);
+// taskInput.addEventListener("keyup", runEvent);
+// taskInput.addEventListener("keypress", runEvent);
+// taskInput.addEventListener("focus", runEvent);
+// taskInput.addEventListener("blur", runEvent);
+// taskInput.addEventListener("cut", runEvent);
+// taskInput.addEventListener("paste", runEvent);
+// taskInput.addEventListener("input", runEvent);
+// select.addEventListener("change", runEvent);
+
+
+// function runEvent(e) {
+//   console.log(`Event Type : ${e.type}`);
+//   heading.innerText = e.target.value;
+//  get input value
+//   console.log(e.target.value);
+//   e.preventDefault();
+// }

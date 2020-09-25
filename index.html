@@ -20,10 +20,17 @@
       <div class='title'>
         <h2 id="task-title" class="taskTitle">Task List</h2>
       <div>
-      <form action="index.php" method="post">
+      <form>
         <label for="newTask">New Task</label>
-        <input type="text" name="newTask" id="newTask" />
-        <input type="button" value="Add Task" class="btn btn-info ml-3" />
+        <input type="text" name="newTask" id="task" />
+        <input type="submit" value="Add Task" class="btn btn-info ml-3" />
+        <select>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
       </form>
       <ul class="list-unstyled ml-4 collections">
         <li class="collection-item">Task 1 <a href="#" class="text-decoration-none pl-5">x</a></li>
