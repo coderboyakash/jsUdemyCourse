@@ -113,22 +113,55 @@
 // console.log(val);
 
 // Create the element
-const li = document.createElement('li');
+// const li = document.createElement('li');
 
 // Add Class
-li.className = 'collection-item';
-li.id = 'new-item';
+// li.className = 'collection-item';
+// li.id = 'new-item';
 // Add Attributes
-li.setAttribute('name', 'New Item');
+// li.setAttribute('name', 'New Item');
 // create text node
-li.appendChild(document.createTextNode('Hello World'));
+// li.appendChild(document.createTextNode('Hello World'));
 // Create new link element
-const link = document.createElement('a');
-link.className = 'text-decoration-none pl-5';
-link.innerHTML = 'x'+'<i class="fa fa-remove"></i>'
-link.setAttribute('href', '#');
+// const link = document.createElement('a');
+// link.className = 'text-decoration-none pl-5';
+// link.innerHTML = 'x'+'<i class="fa fa-remove"></i>'
+// link.setAttribute('href', '#');
 // Append link to li
-li.appendChild(link);
+// li.appendChild(link);
 // Append li as child to ul
-document.querySelector("ul.collections").appendChild(li);
-console.log(link);
+// document.querySelector("ul.collections").appendChild(li);
+// console.log(link);
+
+// Replacing elements
+// const newHeading = document.createElement('h1');
+// newHeading.className = 'bg-primary';
+// newHeading.innerHTML = 'Task Lists';
+// const oldHeading = document.getElementById('task-title');
+// const parentOfOldHeader = document.querySelector('.title');
+// parentOfOldHeader.replaceChild(newHeading, oldHeading);
+// remove element
+// const lis = document.querySelectorAll('li');
+// const lists = document.querySelectorAll('ul');
+// lis[0].remove();
+// lists[0].removeChild(lis[3]);
+// console.log(lis);
+
+// classes and attributes
+// const firstli = document.querySelector('li:first-child');
+// const link = firstli.children[0];
+// let val;
+// val = link.className;
+// val = link.classList;
+// val = link.classList[0];
+// link.classList.add('test');
+// val = link;
+// link.classList.remove('test');
+// console.log(val);
+
+// Attributes
+// val = link.getAttribute('href');
+// val = link.setAttribute('href', 'http://localhost');
+// val = link.hasAttribute('href');
+// val = link.removeAttribute('href');
+// console.log(val);
