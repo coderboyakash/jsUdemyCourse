@@ -111,3 +111,24 @@
 
 
 // console.log(val);
+
+// Create the element
+const li = document.createElement('li');
+
+// Add Class
+li.className = 'collection-item';
+li.id = 'new-item';
+// Add Attributes
+li.setAttribute('name', 'New Item');
+// create text node
+li.appendChild(document.createTextNode('Hello World'));
+// Create new link element
+const link = document.createElement('a');
+link.className = 'text-decoration-none pl-5';
+link.innerHTML = 'x'+'<i class="fa fa-remove"></i>'
+link.setAttribute('href', '#');
+// Append link to li
+li.appendChild(link);
+// Append li as child to ul
+document.querySelector("ul.collections").appendChild(li);
+console.log(link);
