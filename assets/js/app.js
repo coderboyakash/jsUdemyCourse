@@ -276,21 +276,21 @@ const header = document.querySelector('h2');
 // const name = sessionStorage.getItem('name');
 // console.log(name);
 
-document.querySelector('form').addEventListener('submit', function(e) {
-    const task = document.getElementById('task').value;
-    console.log(task);
-    let tasks;
-    if(localStorage.getItem('tasks') === null){
-        tasks = [];
-    }else{
-        tasks = JSON.parse(localStorage.getItem('tasks'));
-    }
-    tasks.push(task);
-    localStorage.setItem('tasks', JSON.stringify(tasks));
-    alert('task Saved');
-    e.preventDefault();
-});
-const tasks = JSON.parse(localStorage.getItem('tasks'));
-tasks.forEach(function (task){
-    console.log(task);
-});
+// document.querySelector('form').addEventListener('submit', function(e) {
+//     const task = document.getElementById('task').value;
+//     console.log(task);
+//     let tasks;
+//     if(localStorage.getItem('tasks') === null){
+//         tasks = [];
+//     }else{
+//         tasks = JSON.parse(localStorage.getItem('tasks'));
+//     }
+//     tasks.push(task);
+//     localStorage.setItem('tasks', JSON.stringify(tasks));
+//     alert('task Saved');
+//     e.preventDefault();
+// });
+// const tasks = JSON.parse(localStorage.getItem('tasks'));
+// tasks.forEach(function (task){
+//     console.log(task);
+// });
