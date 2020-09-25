@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="icon" href="favicon.ico" sizes="16x16" type="image/png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="app.js" defer></script>
-        <title>Javascript Sandbox</title>
-    </head>
-    <body>
-        <h1>Hello World!!</h1>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.ico" sizes="16x16" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="assets/js/app.js" defer></script>
+    <script src="assets/js/fundamentals.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Javascript Sandbox</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="task-title" class="taskTitle">Task List</h2>
+      <form action="index.php" method="post">
+        <label for="newTask">New Task</label>
+        <input type="text" name="newTask" id="newTask" />
+        <input type="button" value="Add Task" class="btn btn-info ml-3" />
+      </form>
+      <ul class="list-unstyled ml-4 collections">
+        <li class="collection-item">Task 1 <a href="#" class="text-decoration-none pl-5">x</a></li>
+        <li class="collection-item">Task 2 <a href="#" class="text-decoration-none pl-5">x</a></li>
+        <li class="collection-item">Task 3 <a href="#" class="text-decoration-none pl-5">x</a></li>
+        <li class="collection-item">Task 4 <a href="#" class="text-decoration-none pl-5">x</a></li>
+        <li class="collection-item">Task 5 <a href="#" class="text-decoration-none pl-5">x</a></li>
+      </ul>
+      <a href="#" class="btn btn-info ml-3">Clear Tasks</a>
+    </div>
+  </body>
 </html>

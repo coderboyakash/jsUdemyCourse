@@ -581,3 +581,26 @@
 //   console.log(`Loop : ${a}`);
 // }
 // console.log("Global Scopes : ", a, b, c);
+// let val;
+
+// val = document;
+// val = document.all;
+// val = document.all["2"];
+// val = document.all.length;
+// val = document.head;
+// val = document.doctype;
+// val = document.domain;
+// val = document.URL;
+// val = document.characterSet;
+// val = document.contentType;
+// val = document.forms;
+// val = document.forms["0"];
+// val = document.forms["0"].action;
+// val = document.forms["0"].method;
+// val = document.links;
+// val = document.links["0"];
+// val = document.links["0"].className;
+// val = document.scripts;
+// val = scriptArray = Array.from(document.scripts);
+
+// console.log(val);

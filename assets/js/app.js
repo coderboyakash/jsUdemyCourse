@@ -1,0 +1,71 @@
+// dcoument.getElementById()
+
+// console.log(document.getElementById("task-title"));
+
+// Get things from the element
+
+// console.log(document.getElementById("task-title").id);
+// console.log(document.getElementById("task-title").className);
+
+// Change styling
+
+// document.getElementById("task-title").style.background = "Red";
+// document.getElementById("task-title").style.color = "white";
+// document.getElementById("task-title").style.padding = "5px";
+// document.getElementById('task-title').style.display = 'none';
+
+// Change Content
+// document.getElementById("task-title").textContent = "Task Lists";
+// document.getElementById("task-title").innerText = "My Task Lists";
+// document.getElementById("task-title").innerHTML = "My Task Lists HTML";
+
+// const tasktitle = document.getElementById("task-title");
+// tasktitle.innerText = "Any Thing";
+
+// console.log(document.querySelector("#task-title"));
+// console.log(document.querySelector("h2"));
+
+// document.querySelector("li").style.color = "red";
+// document.querySelector("li:last-child").style.color = "red";
+// document.querySelector("li:nth-child(3)").style.color = "red";
+// document.querySelector("li:nth-child(4)").textContent = "Hello World!!";
+// document.querySelector("li:nth-child(odd)").style.border = "1px solid black";
+// document.querySelector("li:nth-child(even)").style.border = "1px solid black";
+
+// document.getElementByClassName();
+
+// const items = document.getElementsByClassName('collection-item');
+// console.log(items);
+// console.log(items[0]);
+// items[3].textContent = 'collection';
+
+// const listItems = document.querySelector('ul').getElementsByClassName('collection-item');
+// console.log(listItems);
+
+// document.getElementByTagName()
+// let items = document.getElementsByTagName("li");
+// items = Array.from(items);
+// items.reverse();
+// console.log(items);
+// items.forEach(function(item){
+//     item.textContent = 'Hello World!!'
+// })
+// query selector all
+// const items = document.querySelectorAll("ul.collections li.collection-item");
+// console.log(items);
+// items.forEach(function (item) {
+//   item.textContent = "Hello World!!";
+// });
+
+// const liODD = document.querySelectorAll("li:nth-child(odd)");
+// const liEven = document.querySelectorAll("li:nth-child(even)");
+
+// liODD.forEach(function (odd, index) {
+//   odd.style.backgroundColor = "black";
+//   odd.style.color = "white";
+// });
+
+// liEven.forEach(function (even, index) {
+//   even.style.backgroundColor = "red";
+//   even.style.color = "yellow";
+// });
